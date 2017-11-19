@@ -6,6 +6,8 @@
   stat:
     path: "{{ composer_bin }}"
   register: composer_bin_stat_result
+  tags:
+    - packages
 
 - block:
 
@@ -26,3 +28,5 @@
         state: absent
 
   when: not composer_bin_stat_result.stat.exists
+  tags:
+    - packages
