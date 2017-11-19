@@ -1,8 +1,8 @@
 ---
 
 galaxy_info:
-  author:
-  description:
+  author: Simon Bärlocher <s.baerlocher@sbaerlocher.ch>
+  description: Installs then composer
   company:
   license: MIT
   min_ansible_version: 2
@@ -29,6 +29,9 @@ galaxy_info:
       versions:
         - wheezy
 
-  galaxy_tags: []
+  galaxy_tags:
+    - composer
+    - laravel
+    - php
 
 dependencies: []
