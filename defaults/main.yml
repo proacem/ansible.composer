@@ -1,2 +1,4 @@
 ---
 # defaults file for sbaerlocher.composer
+
+composer_bin: /usr/local/bin/composer

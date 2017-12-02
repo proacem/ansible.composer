@@ -4,6 +4,8 @@
 
 ## Description
 
+Installs then composer.
+
 ## Installation
 
 ```bash
@@ -12,14 +14,17 @@ ansible-galaxy install sbaerlocher.composer
 
 ## Requirements
 
+None
+
 ## Role Variables
 
 | Variable             | Default     | Comments (type)                                   |
 | :---                 | :---        | :---                                              |
-| | | |
-| | | |
+| composer_bin | /usr/local/bin/composer | |
 
 ## Dependencies
+
+None
 
 ## Example Playbook
 
@@ -30,6 +35,10 @@ ansible-galaxy install sbaerlocher.composer
 ```
 
 ## Changelog
+
+### 1.0
+
+* Initial release
 
 ## Author
 
